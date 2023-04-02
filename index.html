@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happ Birthday</title>
+    <link rel="stylesheet" href="canvas.css" />
+    <link rel="stylesheet" href="present.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <canvas id="canvas"></canvas>
+      <section class="above-fold">
+        <div class="wrap-present">
+          <div class="present-box" id="present">
+            <div class="present">
+              <div class="img-wrap" id="present-image"></div>
+            </div>
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+            <div class="side top">
+              <span class="to">
+                <span class="name" id="nametag"> </span>
+              </span>
+            </div>
+            <div class="side bottom"></div>
+          </div>
+        </div>
+        <p class="info-text">Click to Open</p>
+      </section>
+
+      <div id="card">
+        <h4 class="title-card">Happy Birthday 🎂</h4>
+
+        <img
+          src="./images/1.jpeg"
+          class="honey"
+        />
+
+        <h4 class="content-card">
+            <p>Heyyy....Chúc mừng sinh nhật Lì nhé. Chúc cậu tuổi mới vui vẻ, sức khoẻ, thành công và kiếm thật nhiều tiền. Xinh lại càng thêm xinh nữa nha :3</p>
+            <p>Có lẽ tui không phải là người đầu tiên chúc mừng sinh nhật cậu, nhưng sẽ là người cuối cùng làm điều đó😁</p>
+            <p>Hmmm...Cậu biết không? Trong trí nhớ của tui thì mỗi lúc cậu cười nhìn xinh lắm ấy, vậy nên hãy luôn giữ nụ cười đó trên môi nhé ! </p> 
+            <p>i wish you all the best</p>
+            <p>HAPPY BIRTHDAY TO YOU !!!</p>
+        </h4>
+      </div>
+    </div>
+    <audio autoplay loop  id="playAudio">
+        <source src="./music/music.mp3" type="audio/mp3"/>
+    </audio>
+  </body>
+  <script src="canvas.js"></script>
+  <script src="present.js"></script>
+  <script>
+    
+  </script>
+</html>
